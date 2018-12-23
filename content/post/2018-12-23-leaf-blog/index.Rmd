@@ -1,0 +1,21 @@
+---
+title: "A new way to blog with images"
+author: "Davis Vaughan"
+date: 2018-12-23
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# R Markdown
+
+![](./meta-image.png)
+
+```{r}
+# more stuff
+knitr::include_graphics("./meta-image.png")
+```
+
