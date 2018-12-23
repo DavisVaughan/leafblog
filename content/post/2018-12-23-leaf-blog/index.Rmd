@@ -19,3 +19,4 @@ knitr::opts_chunk$set(collapse = TRUE)
 knitr::include_graphics("./meta-image.png")
 ```
 
+Using the ideas laid out in [page bundles](https://gohugo.io/content-management/page-bundles/).
